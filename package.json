@@ -1,0 +1,16 @@
+{
+    "name": "laravel-lsp",
+    "module": "src/server.ts",
+    "type": "module",
+    "scripts": {
+        "format": "prettier --write .",
+        "lint": "eslint ."
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+        "prettier": "^3.5.3"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
